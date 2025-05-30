@@ -20,11 +20,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="enig.h" />
+    <ClInclude Include="enigma.h" />
+    <ClInclude Include="message_io.h" />
     <ClInclude Include="rotor.h" />
     <ClInclude Include="rotor_io.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="enigma.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="message_io.cpp" />
     <ClCompile Include="rotor_io.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
