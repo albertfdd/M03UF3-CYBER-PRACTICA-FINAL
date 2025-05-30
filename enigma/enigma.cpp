@@ -2,6 +2,8 @@
 #include <cctype>
 #include <algorithm>
 
+std::array<char, ALPHABET_SIZE> plugboard;
+
 // Normalización
 std::string normalize(const std::string& raw) {
     std::string filtered;

@@ -3,7 +3,7 @@
 #include <set>
 
 // Valida que 's' tenga exactamente 26 letras A–Z sin repetir
-static bool validateWiring(const std::string& s) {
+bool validateWiring(const std::string& s) {
     if (s.size() != ALPHABET_SIZE) return false;
     std::set<char> seen;
     for (char c : s) {
@@ -52,3 +52,5 @@ bool saveRotor(const std::string& filename, const Rotor& r) {
     out << r.notch << "\n";
     return true;
 }
+
+ 

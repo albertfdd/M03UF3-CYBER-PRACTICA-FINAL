@@ -16,3 +16,8 @@ char mapForward(const Rotor& r, char c);
 
 // Mapea carácter c hacia atrás pasando por un rotor r
 char mapBackward(const Rotor& r, char c);
+
+const std::string REFLECTOR = "YRUHQSLDPXNGOKMIEBFZCWVJAT"; // Reflector B històric
+
+// Plug-board: por defecto sin cambios (A->A, B->B, etc.)
+extern std::array<char, ALPHABET_SIZE> plugboard;

@@ -11,3 +11,6 @@ bool loadRotor(const std::string& filename, Rotor& r);
 // Guarda un rotor en fichero (mismas dos líneas).
 // Devuelve true si ok, false si error (imprime mensaje [ERROR])
 bool saveRotor(const std::string& filename, const Rotor& r);
+
+// Función para que main.cpp también valide permutaciones
+bool validateWiring(const std::string& s);
